@@ -1,6 +1,6 @@
 y=[];
 fs=[];
-file_directory = 'data\VoiceRecorder\train_files\';
+file_directory = 'data\VoiceRecorder\train_files\'; %address of training audio files
 
 all_files = dir([file_directory '*.wav']);
 for i=1:length(all_files)
@@ -11,7 +11,7 @@ for i=1:length(all_files)
 end
 
 %%
-nSpeakers = 9;
+nSpeakers = 9; %number of speakers
 nDims = 12; % dimensionality of feature vectors
 nMixtures = 32; % How many mixtures used to generate data
 nChannels = 10; % Number of channels (sessions) per speaker

@@ -70,7 +70,7 @@ ivScores = score_gplda_trials(pLDA, modelIVs, finalTestIVs);
 %xlabel('Test # (Channel x Speaker)'); ylabel('Model #');
 %colorbar; axis xy; drawnow;
 answers = zeros(nSpeakers*nChannels*nSpeakers, 1);
-for ix = 1 : nSpeakers,
+for ix = 1 : nSpeakers
 b = (ix-1)*nSpeakers*nChannels + 1;
 answers((ix-1)*nChannels+b : (ix-1)*nChannels+b+nChannels-1) = 1;
 end
