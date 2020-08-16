@@ -1,5 +1,5 @@
 # Speaker-Recognition using GMM-UBM and I-vector
-This project is speaker recognition system which has GMM, GMM-UBM and i-vector identifier
+This project is MATLAB implementation of speaker recognition system with different identifier to choose from such as GMM, GMM-UBM and i-vector
 
 STEPS:
 
